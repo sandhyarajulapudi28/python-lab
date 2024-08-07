@@ -1,0 +1,12 @@
+#palindrome or not using while loop
+number=int(input("Enter the number:"))
+reverse=0
+temp=number
+while(temp>0):
+  digit=temp%10
+  reverse=reverse*10+digit
+  temp=temp//10
+if(number==reverse):
+  print(number,"is a palindrome number")
+else:
+    print(number,"is not a palindrome number")

@@ -1,0 +1,11 @@
+#to find the position of minimum and maximum elements of a list
+n=int(input("enter the number of elements:"))
+l=[]
+for i in range(0,n):
+  elem=int(input("enter element:"))
+  l.append(elem)
+print("the original list is:",l)
+print("the maximum element is:",max(l))
+print("the minimum element is:",min(l))
+print("the position of maximum element is:",l.index(max(l)))
+print("the position of minimum element is:",l.index(min(l)))

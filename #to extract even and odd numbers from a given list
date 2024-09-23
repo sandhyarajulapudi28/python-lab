@@ -1,0 +1,16 @@
+#to extract even and odd numbers from a given list
+n=int(input("enter the number of elements:"))
+l=[]
+for i in range(0,n):
+  elem=int(input("enter element:"))
+  l.append(elem)
+print("the original list is:",l)
+even=[]
+odd=[]
+for i in l:
+  if(i%2==0):
+    even.append(i)
+  else:
+    odd.append(i)
+print("even list is:",even)
+print("odd list is:",odd)

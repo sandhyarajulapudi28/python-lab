@@ -1,0 +1,10 @@
+#to remove first occurrence of a given element in the list
+n=int(input("enter the number of elements:"))
+l=[]
+for i in range(0,n):
+  elem=int(input("enter element:"))
+  l.append(elem)
+print("the original list is:",l)
+n=int(input("enter the element to be removed:"))
+l.remove(n)
+print("list after removing first occurrence is:",l)

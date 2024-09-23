@@ -1,0 +1,10 @@
+#to interchange first and last elements in a list
+n=int(input("enter the number of elements:"))
+l=[]
+for i in range(0,n):
+  elem=int(input("enter element:"))
+  l.append(elem)
+temp=l[0]
+l[0]=l[n-1]
+l[n-1]=temp
+print("list after interchanged is:",l)

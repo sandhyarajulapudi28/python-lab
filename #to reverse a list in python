@@ -1,0 +1,8 @@
+#to reverse a list in python
+n=int(input("enter the number of elements:"))
+l=[]
+for i in range(0,n):
+  elem=int(input("enter elements:"))
+  l.append(elem)
+l.reverse()
+print("reversed list is:",l)
